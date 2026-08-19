@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign in — CrossSkill</title>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+<div class="grain"></div>
+<div id="toast"><span class="dot"></span><span id="toast-msg"></span></div>
+
+<div class="auth-wrap">
+  <div class="auth-box">
+    <a href="index.html" class="logo" style="justify-content:center; margin-bottom:30px;"><span class="mark"></span>CrossSkill</a>
+
+    <div class="auth-tabs">
+      <a class="auth-tab active" href="login.html">Sign in</a>
+      <a class="auth-tab" href="signup.html">Sign up</a>
+    </div>
+
+    <div class="field"><label>Student email</label><input id="li-email" type="email" value="aditi.rao@campus.edu"></div>
+    <div class="field"><label>Password</label><input type="password" value="••••••••"></div>
+    <button class="btn btn-brass" style="width:100%; margin-top:6px;" onclick="loginExisting()">Sign in</button>
+
+    <p style="text-align:center; font-size:12.5px; color:var(--ink-70); margin-top:20px;">Demo build — any password signs you in as the stored (or seeded) profile.</p>
+  </div>
+</div>
+
+<script src="js/store.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Create account — CrossSkill</title>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+<div class="grain"></div>
+<div id="toast"><span class="dot"></span><span id="toast-msg"></span></div>
+
+<div class="auth-wrap">
+  <div class="auth-box">
+    <a href="index.html" class="logo" style="justify-content:center; margin-bottom:30px;"><span class="mark"></span>CrossSkill</a>
+
+    <div class="auth-tabs">
+      <a class="auth-tab" href="login.html">Sign in</a>
+      <a class="auth-tab active" href="signup.html">Sign up</a>
+    </div>
+
+    <div class="field">
+      <label>Full name</label>
+      <input id="su-name" type="text" placeholder="e.g. Aditi Rao">
+      <div class="field-err">Enter your full name.</div>
+    </div>
+    <div class="field">
+      <label>Student email</label>
+      <input id="su-email" type="email" placeholder="you@campus.edu">
+      <div class="field-err">Enter your student email.</div>
+    </div>
+    <div class="field"><label>Password</label><input type="password" placeholder="At least 8 characters"></div>
+    <button class="btn btn-brass" style="width:100%; margin-top:6px;" onclick="signupNew()">Create account</button>
+
+    <p style="text-align:center; font-size:12.5px; color:var(--ink-70); margin-top:20px;">By continuing you agree this is a demo interface for the CrossSkill PRD.</p>
+  </div>
+</div>
+
+<script src="js/store.js"></script>
+<script src="js/toast.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
