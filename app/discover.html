@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Discover — CrossSkill</title>
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/app-shell.css">
+</head>
+<body>
+<div class="grain"></div>
+<div id="toast"><span class="dot"></span><span id="toast-msg"></span></div>
+
+<div class="app-shell">
+  <aside class="rail" id="rail"></aside>
+  <main class="main">
+    <div class="page-head">
+      <div><h1>Discover</h1><div class="desc">Search directly by student name or skill.</div></div>
+    </div>
+
+    <div class="search-row">
+      <div class="search-input-wrap">
+        <span class="sic">⌕</span>
+        <input id="discover-search" placeholder="Search by name or skill — e.g. &quot;Python&quot; or &quot;Rehan&quot;">
+      </div>
+    </div>
+
+    <div class="pill-row" id="pill-row"></div>
+
+    <div class="result-grid" id="result-grid"></div>
+    <div class="empty" id="discover-empty" style="display:none;">
+      <h4>No students found</h4>
+      <p>Try a different name or skill, or clear the category filter.</p>
+    </div>
+  </main>
+</div>
+
+<script src="../js/store.js"></script>
+<script src="../js/toast.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/discover.js"></script>
+</body>
+</html>
