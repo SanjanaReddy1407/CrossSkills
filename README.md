@@ -422,7 +422,6 @@ The following items are **intentionally undefined** in the current PRD and shoul
 |---|---|
 | User Flow Diagram | ✅ Provided |
 | ER Diagram | ✅ Provided |
-| Architecture Diagram | ⏳ Pending |
 | PRD | ✅ v1.0 Complete |
 
 </div>
